@@ -30,5 +30,18 @@ namespace WpfApp1
             window.Show();
             this.Close();
         }
+
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Биба и боба 1");
+        }
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Биба и боба 2");
+        }
+        private void MenuItem_Click_3(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Биба и боба 3");
+        }
     }
 }

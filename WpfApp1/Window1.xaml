@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
+        <Menu Height="50" VerticalAlignment="Bottom">
+            <MenuItem Header="Меню 1">
+                <MenuItem Header="Menu Item 1" Click="MenuItem_Click_1"></MenuItem>
+                <MenuItem Header="Menu Item 2" Click="MenuItem_Click_2"></MenuItem>
+                <MenuItem Header="Menu Item 3" Click="MenuItem_Click_3"></MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="Outsider"></MenuItem>
+            </MenuItem>
+        </Menu>
         <Button Content="Get back" HorizontalAlignment="Center" VerticalAlignment="Center" Height="200" Width="200" Click="Button_Click"/>
 
     </Grid>

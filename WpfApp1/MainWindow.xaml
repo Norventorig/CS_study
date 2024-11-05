@@ -7,8 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Menu Height="25" VerticalAlignment="Top">
+            <MenuItem Header="Файл">
+                <MenuItem.Icon>
+                    <Image Source="C:\Users\123\Desktop\image_1.png"></Image>
+                </MenuItem.Icon>
+                <MenuItem Header="Следующее" Click="MenuItem_Click_1"></MenuItem>
+                <MenuItem Header="Предыдущее" Click="MenuItem_Click_2"></MenuItem>
+                <MenuItem Header="Сохранить"></MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="Выйти" Click="MenuItemClick_close"></MenuItem>
+            </MenuItem>
+        </Menu>
         <Button Content="Const" HorizontalAlignment="Left" VerticalAlignment="Top" Height="97" Width="200" Click="Button_Click" Margin="600,337,0,0"/>
-        <Image Source="C:\Users\123\Desktop\image.jpg.jfif" HorizontalAlignment="Center" Height="300" Margin="0,0,0,0" VerticalAlignment="Center" Width="400" RenderTransformOrigin="0.524,0.542"/>
+        <Image Name="IMAGE"  HorizontalAlignment="Left" Height="300" Margin="189,58,0,0" VerticalAlignment="Top" Width="311" RenderTransformOrigin="0.011,0.085" Stretch="Uniform"/>
 
     </Grid>
 </Window>

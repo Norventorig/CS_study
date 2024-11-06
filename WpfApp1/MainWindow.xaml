@@ -10,7 +10,7 @@
         <Menu Height="25" VerticalAlignment="Top">
             <MenuItem Header="Файл">
                 <MenuItem.Icon>
-                    <Image Source="C:\Users\123\Desktop\image_1.png"></Image>
+                    <Image Source="C:\Users\123\source\repos\Norventorig\CS_study\icon.png"></Image>
                 </MenuItem.Icon>
                 <MenuItem Header="Следующее" Click="MenuItem_Click_1"></MenuItem>
                 <MenuItem Header="Предыдущее" Click="MenuItem_Click_2"></MenuItem>

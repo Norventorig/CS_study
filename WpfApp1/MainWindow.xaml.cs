@@ -27,7 +27,7 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-            LoadImages(@"C:\Users\123\Desktop\images");
+            LoadImages(@"C:\Users\123\source\repos\Norventorig\CS_study\images");
             DisplayImage();
         }
 

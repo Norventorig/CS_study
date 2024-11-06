@@ -68,15 +68,31 @@ namespace WpfApp1
 
         private void MenuItem_Click_1(object sender, RoutedEventArgs e)
         {
-            
-            current_index++;
+            if (current_index == images_source.Count - 1)
+            {
+                current_index = 0;
+            }
+
+            else
+            {
+                current_index++;
+            }
+
             DisplayImage();
         }
 
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)
         {
             if (current_index == 0)
+            {
+                current_index = images_source.Count - 1;
+            }
+
+            else
+            {
                 current_index--;
+            }
+
             DisplayImage();
         }
     }

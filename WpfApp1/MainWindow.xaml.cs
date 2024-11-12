@@ -60,6 +60,12 @@ namespace WpfApp1
             window.Show();
             this.Close();
         }
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Window2 window = new Window2();
+            window.Show();
+            this.Close();
+        }
 
         private void MenuItemClick_close(object sender, RoutedEventArgs e)
         {

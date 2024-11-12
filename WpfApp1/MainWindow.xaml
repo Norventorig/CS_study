@@ -12,14 +12,20 @@
                 <MenuItem.Icon>
                     <Image Source="C:\Users\123\source\repos\Norventorig\CS_study\icon.png"></Image>
                 </MenuItem.Icon>
+
                 <MenuItem Header="Следующее" Click="MenuItem_Click_1"></MenuItem>
+                
                 <MenuItem Header="Предыдущее" Click="MenuItem_Click_2"></MenuItem>
+                
                 <MenuItem Header="Сохранить"></MenuItem>
+                
                 <Separator></Separator>
                 <MenuItem Header="Выйти" Click="MenuItemClick_close"></MenuItem>
+                
             </MenuItem>
         </Menu>
         <Button Content="Const" HorizontalAlignment="Left" VerticalAlignment="Top" Height="97" Width="200" Click="Button_Click" Margin="600,337,0,0"/>
+        <Button Content="Const 2" HorizontalAlignment="Right" VerticalAlignment="Top" Height="97" Width="200" Click="Button_Click_2"></Button>
         <Image Name="IMAGE"  HorizontalAlignment="Left" Height="300" Margin="189,58,0,0" VerticalAlignment="Top" Width="311" RenderTransformOrigin="0.011,0.085" Stretch="Uniform"/>
 
     </Grid>
